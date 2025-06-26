@@ -448,7 +448,6 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
                               href={`mailto:${signatureData.email}`}
                               style={{
                                 color: "currentColor",
-                                opacity: 0.6,
                                 textDecoration: "none",
                                 fontWeight: "bold",
                               }}

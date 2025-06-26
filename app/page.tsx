@@ -472,7 +472,7 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
                             <span style={{ color: "currentColor", opacity: 0.4 }}>Website</span>
                           )}
                         </div>
-                        <div style={{ margin: "0", padding: "0 0 40px 0", fontSize: "15px", fontWeight: "bold" }}>
+                        <div style={{ margin: "0", padding: "0 0 24px 0", fontSize: "15px", fontWeight: "bold" }}>
                           {signatureData.instagram ? (
                             <a
                               href={`https://instagram.com/${signatureData.instagram}`}

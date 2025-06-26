@@ -339,7 +339,7 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
           </div>
 
           {/* Email Content */}
-          <div className="p-12 text-gray-800 dark:text-gray-200 leading-relaxed">
+          <div className="text-sm p-8 text-gray-800 dark:text-gray-200 leading-relaxed">
             <p className="mb-4">Estimado Cliente,</p>
 
             <p className="mb-4">

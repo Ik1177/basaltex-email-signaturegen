@@ -327,13 +327,13 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
             <div className="text-sm text-gray-600 dark:text-gray-400">
               <div className="mb-1">
                 <span className="font-medium text-gray-700 dark:text-gray-300">From:</span>{" "}
-                {signatureData.email || "your.email@company.com"}
+                {signatureData.email || "cdelcastillo@basaltex.com.mx"}
               </div>
               <div className="mb-1">
-                <span className="font-medium text-gray-700 dark:text-gray-300">To:</span> nombre@cliente.com
+                <span className="font-medium text-gray-700 dark:text-gray-300">To:</span> cliente@company.com
               </div>
               <div>
-                <span className="font-medium text-gray-700 dark:text-gray-300">Subject:</span> Lanzamiento de EcoCrete. Nuestro nuevo concreto de bajas emisiones.
+                <span className="font-medium text-gray-700 dark:text-gray-300">Subject:</span> Propuesta de proyecto - Basaltex
               </div>
             </div>
           </div>
@@ -343,10 +343,22 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
             <p className="mb-4">Estimado Cliente,</p>
 
             <p className="mb-4">
-              Me da mucho gusto compartir con usted el lanzamiento de EcoCrete, la nueva línea de concreto de bajas emisiones de Basaltex. EcoCrete reduce hasta un 30 % la huella de carbono sin sacrificar resistencia ni durabilidad, y ya cuenta con certificaciones ASTM y NMX.
+              Me da mucho gusto saludarle y poder presentar nuestra propuesta para el proyecto que nos ha compartido. En Basaltex nos especializamos en proyectos de construcción sustentable y desarrollo urbano, con más de 15 años de experiencia en el mercado.
             </p>
 
-            <p className="mb-4">Para mostrarle todas sus ventajas, lo invitamos a nuestro webinar el próximo Martes 15 de Junio a las 10:00h, donde repasaremos:</p>
+            <p className="mb-4">Nuestra propuesta incluye:</p>
+
+            <ul className="mb-4 ml-6 space-y-1">
+              <li>• Análisis completo del terreno y factibilidad técnica</li>
+              <li>• Diseño arquitectónico y estructural personalizado</li>
+              <li>• Gestión de permisos y licencias necesarias</li>
+              <li>• Supervisión técnica durante todo el proceso</li>
+              <li>• Garantía de calidad y cumplimiento de normativas</li>
+            </ul>
+
+            <p className="mb-4">
+              Para mostrarle todos sus ventajas, le invitamos a nuestro webinar el próximo "martes 15 de junio a las 10:00h", donde repasaremos:
+            </p>
 
             <ul className="mb-4 ml-6 space-y-1">
               <li>• Propiedades técnicas y aplicaciones prácticas</li>
@@ -354,7 +366,7 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
               <li>• Guía de dosificación y soporte técnico post-venta</li>
             </ul>
 
-            <p className="mb-4">
+            <p className="mb-6">
               Confirme su asistencia respondiendo a este correo o contactando a nuestro equipo de atención al cliente.
             </p>
 

@@ -323,7 +323,7 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
           style={{ minHeight: "600px" }}
         >
           {/* Email Header */}
-          <div className="bg-gray-50 dark:bg-gray-800 p-4 border-b border-gray-200 dark:border-gray-700">
+          <div className="bg-gray-50 dark:bg-gray-800 p-8 border-b border-gray-200 dark:border-gray-700">
             <div className="text-sm text-gray-600 dark:text-gray-400">
               <div className="mb-1">
                 <span className="font-medium text-gray-700 dark:text-gray-300">From:</span>{" "}
@@ -339,7 +339,7 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
           </div>
 
           {/* Email Content */}
-          <div className="p-6 text-gray-800 dark:text-gray-200 leading-relaxed">
+          <div className="p-12 text-gray-800 dark:text-gray-200 leading-relaxed">
             <p className="mb-4">Estimado Cliente,</p>
 
             <p className="mb-4">
@@ -357,14 +357,8 @@ ${signatureData.tagline ? `<tr><td style="color: currentColor; opacity: 0.6; mar
             </ul>
 
             <p className="mb-4">
-              Para mostrarle todos sus ventajas, le invitamos a nuestro webinar el próximo "martes 15 de junio a las 10:00h", donde repasaremos:
+              Para mostrarle todos sus ventajas, le invitamos a nuestro webinar el próximo "martes 15 de junio a las 10:00h"
             </p>
-
-            <ul className="mb-4 ml-6 space-y-1">
-              <li>• Propiedades técnicas y aplicaciones prácticas</li>
-              <li>• Casos de éxito en proyectos residenciales y comerciales</li>
-              <li>• Guía de dosificación y soporte técnico post-venta</li>
-            </ul>
 
             <p className="mb-6">
               Confirme su asistencia respondiendo a este correo o contactando a nuestro equipo de atención al cliente.
